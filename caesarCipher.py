@@ -26,7 +26,7 @@ def get_shift():        # CHALLENGE PORTION
         except ValueError:
             print("Invalid value.")
 
-def split_ascii(word):                  # CHALLENGE PORTION
+def split_ascii(word):               
     return [char for char in word]
 
 def changeCharacter(char, shift, alphabet):
